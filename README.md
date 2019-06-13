@@ -4,6 +4,11 @@ Adventures in Async. Part II - How to Build Stateful Microservices w/ Akka Actor
 ## What you will learn:
 create Stateful Microservices with Akka Actors in conjunction with Kubernetes.
 
+## Code we used for this meetup
+Thanks to [Hugh McKee](https://github.com/mckeeh3)
+https://github.com/mckeeh3/akka-java-cluster-openshift
+
+
 ## Prerequisites
 
 ### Kubernetes 
