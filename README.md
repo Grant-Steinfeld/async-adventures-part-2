@@ -13,4 +13,10 @@ This setup could also be done on a linux VM/laptop or a Windows PC
 [read more how to here](https://docs.okd.io/latest/minishift/getting-started/setting-up-virtualization-environment.html) from the official docs.
 
 
+### Resources
+Setting up an IBM Cloud account today!
+https://ibm.biz/BdzzGe ( this link may expire so use the one below if this is the case)
 
+or 
+
+https://cloud.ibm.com 
