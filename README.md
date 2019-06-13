@@ -6,7 +6,8 @@ create Stateful Microservices with Akka Actors in conjunction with Kubernetes.
 
 ## Code we used for this meetup
 Thanks to [Hugh McKee](https://github.com/mckeeh3)
-https://github.com/mckeeh3/akka-java-cluster-openshift
+Here is the [repo - akka-java-cluster-openshift](
+https://github.com/mckeeh3/akka-java-cluster-openshift )
 
 
 ## Prerequisites
