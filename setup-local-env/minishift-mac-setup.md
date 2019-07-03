@@ -81,7 +81,7 @@ brew edit docker-machine-driver-xhyve
 ```
 I now edited the brew file in VI
 
-Change the `tag:` and `revision:` references to:
+Change the `tag:` AND `revision:` references to:
 
 ```java 
 class DockerMachineDriverXhyve < Formula
