@@ -1,5 +1,4 @@
-# async-adventures-part-2
-Adventures in Async. Part II - How to Build Stateful Microservices w/ Akka Actors AND Kubernetes
+# Adventures in Async. Part II - How to Build Stateful Microservices w/ Akka Actors AND Kubernetes
 
 ## What you will learn:
 create Stateful Microservices with Akka Actors in conjunction with Kubernetes.
@@ -13,7 +12,8 @@ https://github.com/mckeeh3/akka-java-cluster-openshift )
 
 ## Prerequisites
 
-### Kubernetes 
+### minishift the developers choice to run RedHat's OpenShift
+### Essentially this is - Kubernetes 
 #### We chose a development environment on a [Mac laptop](./setup-local-env/minishift-mac-setup.md) 
 
 This setup could also be done on a linux VM/laptop or a Windows PC
@@ -22,8 +22,8 @@ This setup could also be done on a linux VM/laptop or a Windows PC
 
 ### Resources
 Setting up an IBM Cloud account today!
-https://ibm.biz/BdzzGe ( this link may expire so use the one below if this is the case)
+https://ibm.biz/BdzzGe ( this link will expire soon! So please use the one below if you get a 404 or 504 error )
 
-or 
 
-https://cloud.ibm.com 
+
+## https://cloud.ibm.com 
