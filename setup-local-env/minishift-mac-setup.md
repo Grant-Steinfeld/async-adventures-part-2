@@ -77,6 +77,10 @@ The solution for me was to uninstall the docker-machine-driver-xhyve 0.4.0 drive
 
 ```sh
 brew uninstall docker-machine-driver-xhyve
+#if that fails
+sudo rm -rf /usr/local/Cellar/docker-machine-driver-xhyve/0.4.0
+
+#then change versons for brew
 brew edit docker-machine-driver-xhyve
 ```
 I now edited the brew file in VI
