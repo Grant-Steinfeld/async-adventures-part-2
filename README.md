@@ -1,4 +1,4 @@
-# Adventures in Async. Part II - How to Build Stateful Microservices w/ Akka Actors AND Kubernetes
+# Adventures in Async. Part II - How to Build Stateful Microservices w/ Akka Actors and RedHat MiniShift
 
 ## What you will learn:
 create Stateful Microservices with Akka Actors in conjunction with Minishift.
