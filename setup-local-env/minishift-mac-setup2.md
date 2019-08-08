@@ -1,17 +1,32 @@
-Hypervisor
+## Setting up Minishift 
+### on Mac OSX Mojave 10.14.5
 
-CDK includes a prebuilt Red Hat Enterprise Linux virtual machine with OpenShift and other container tools pre-installed. To run the VM a hypervisor is required.
-
+### Prerequisites
 Installed Oracle Virtual Box on MacOS
+Docker for Mac
 
 
+
+OKD - Origin Community Distribution of Kubernetes that powers Red Hat OpenShift *
+
+To run the VM a hypervisor is required.
+
+There are a few options here
+
+1. xhyve
+1. hyperkit
+1. VirtualBox
+
+
+
+
+### Step I - download latest Minishift binary
 downloaded latest version of Minishift
 https://github.com/minishift/minishift/releases
 at this time that is version 1.34.1
-
 https://github.com/minishift/minishift/releases/download/v1.34.1/minishift-1.34.1-darwin-amd64.tgz
 
-expanded file
+expanded file then:
 cp bin/minishift to /usr/local/bin/minishift
 
 Then ran:
@@ -51,7 +66,8 @@ This launches the URL listed above (for example: https://192.168.42.60:8443) in 
 ### Add the directory containing oc to your PATH
 
 After the minishift VM has been started, 
-add oc to your path:
+
+#### add oc to your path:
 
 $ eval $(minishift oc-env)
 
@@ -72,3 +88,6 @@ eval $(minishift oc-env)
 
 # installed docker app on mac
 
+
+* alternative to OKD is
+CDK includes a prebuilt Red Hat Enterprise Linux virtual machine with OpenShift and other container tools pre-installed. 
