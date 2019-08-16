@@ -81,9 +81,12 @@ CacheUsage: 2.243 GB (used by oc binary, ISO or cached images)
 
 # setup env vars to docker
 $ minishift docker-env
+
 eval $(minishift docker-env)
+
 # to oc
 minishift oc-env
+
 eval $(minishift oc-env)
 
 # installed docker app on mac
