@@ -3,6 +3,10 @@
 ## What you will learn:
 create Stateful Microservices with Akka Actors in conjunction with Minishift.
 
+## View the `Crop Circle`
+Use Chrome/Chromium
+
+# https://bit.ly/2lSrLza
 
 ## Code we used for this meetup
 Thanks to [Hugh McKee](https://github.com/mckeeh3)
