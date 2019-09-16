@@ -7,7 +7,7 @@ create Stateful Microservices with Akka Actors in conjunction with Minishift.
 ## Code we used for this meetup
 Thanks to [Hugh McKee](https://github.com/mckeeh3)
 
-Here my fork of Hugh's  [repo - akka-java-cluster ](
+Here my fork of Hugh's  https://bit.ly/2kMHXSp [repo - akka-java-cluster ](
 https://github.com/Grant-Steinfeld/akka-java-cluster-kubernetes)
 
 
