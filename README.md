@@ -31,6 +31,5 @@ Red Hat Container Development Kit provides a pre-built Container Development Env
 
 ### Resources
 Setting up an IBM Cloud account today!
-https://ibm.biz/BdzzGe ( use if you attended June 2019 Workshop )
 
-https://cloud.ibm.com 
+[https://cloud.ibm.com](https://ibm.biz/Bdzbb8) 
