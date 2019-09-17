@@ -15,12 +15,16 @@ oc get projects
 oc project akka-cluster-1
 ```
 
+### BUILD
+```
+mvn clean package docker:build
+```
 
 ## EXTRA STEPS: I had to push docker image to docker hub account I have
 
 ```sh
 docker images
-
+#TAG docker image
 docker tag akka-cluster-demo:1.0.0 grantsteinfeldibm/akka-cluster-demo:1.0.0
 docker images
 docker push grantsteinfeldibm/akka-cluster-demo:1.0.0
