@@ -1,3 +1,5 @@
+## I had to push docker image to docker hub account I have
+
 ```sh
 docker images
 
