@@ -8,13 +8,12 @@ docker images
 docker push grantsteinfeldibm/akka-cluster-demo:1.0.0
 
 ```
-#note!!
-#change kubernetes/akka-cluster-deployment.yml
-### imagePullPolicy: Never
-### to
-### imagePullPolicy: Always
+##note!!
+### change kubernetes/akka-cluster-deployment.yml
+from imagePullPolicy: `Never` to imagePullPolicy: `Always`
 
-### and also change the repo to pull to include your docker hub username
+### and also change the repo to pull to include your docker hub usernameso in my file ll. 27-28
+
 ```
 image: grantsteinfeldibm/akka-cluster-demo:1.0.0
 imagePullPolicy: Always
