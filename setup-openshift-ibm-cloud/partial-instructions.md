@@ -1,17 +1,18 @@
+```sh
 docker images
 
 docker tag akka-cluster-demo:1.0.0 grantsteinfeldibm/akka-cluster-demo:1.0.0
 docker images
 docker push grantsteinfeldibm/akka-cluster-demo:1.0.0
 
-```sh
+```
 #note!!
 #change kubernetes/akka-cluster-deployment.yml
 # imagePullPolicy: Never
 # to
 # imagePullPolicy: Always
-#deploy docker images$ 
-
+#deploy docker images
+```sh
 oc apply -f kubernetes/akka-cluster-deployment.yml
 ```
 
