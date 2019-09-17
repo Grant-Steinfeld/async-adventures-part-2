@@ -13,6 +13,14 @@ docker push grantsteinfeldibm/akka-cluster-demo:1.0.0
 ### imagePullPolicy: Never
 ### to
 ### imagePullPolicy: Always
+
+### and also change the repo to pull to include your docker hub username
+```
+image: grantsteinfeldibm/akka-cluster-demo:1.0.0
+imagePullPolicy: Always
+```
+
+
 #### deploy docker images
 
 ```sh
